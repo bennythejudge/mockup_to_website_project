@@ -1,0 +1,52 @@
+/* my own style */
+body {
+	font-family: 'Lato', sans-serif;
+	color: #747704;
+	font-weight: 300;
+    background-image: 'img/planche.jpg';
+}
+
+.short-empty-row {
+    height: 10px;
+}
+
+.black-container {
+    background: #131a2d;
+    color: #d0c4ab;
+}
+
+hr {
+    border: 2px solid #d0c4ab;
+}
+
+.abitofpadding {
+    padding: 15px;
+}
+
+.alotofpadding {
+    padding: 30px;
+}
+
+.text-muted {
+	color: #bcbbbb;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+.text-bold {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    color: #131a2d;
+}
+
+.title-super {
+	font-size: 50px;
+
+}
+
+.title-logo {
+	margin-top: 20px;
+
+}
