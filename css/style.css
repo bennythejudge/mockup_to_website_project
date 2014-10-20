@@ -1,9 +1,21 @@
 /* my own style */
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
 body {
 	font-family: 'Lato', sans-serif;
 	color: #747704;
 	font-weight: 300;
-    background-image: 'img/planche.jpg';
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+hr {
+    border: 2px solid #d0c4ab;
 }
 
 .short-empty-row {
@@ -11,12 +23,9 @@ body {
 }
 
 .black-container {
+    margin: 2px;
     background: #131a2d;
     color: #d0c4ab;
-}
-
-hr {
-    border: 2px solid #d0c4ab;
 }
 
 .abitofpadding {
@@ -49,4 +58,13 @@ hr {
 .title-logo {
 	margin-top: 20px;
 
+}
+
+#footer {
+    margin-left: 2px;
+    margin-right:2px;
+    background: #bcbbbb;
+    padding: 50px;
+    margin-top: 10px;
+    text-align: center;
 }
