@@ -15,32 +15,24 @@ body {
 /*   padding-top: 20px;*/
 }
 
-/*hr {
+hr {
    border: 2px solid #d0c4ab;
-}
-*/
-/*.empty-row-10 {
-   height: 10px;
-}
-*/
-
-.divider {
 }
 
 .blue-container {
 /*   margin: 2px;*/
+   text-align: center;
    background: #131a2d;
    color: #d0c4ab;
 }
 
-/*.padding-15 {
+.padding-15 {
    padding: 15px;
 }
 
 .padding-30 {
    padding: 30px;
 }
-*/
 
 .text-muted {
    color: #bcbbbb;
@@ -68,4 +60,21 @@ body {
 /*   padding: 50px;*/
 /*   margin: 10px 0 0 0;*/
    text-align: center;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+/* media queries */
+@media (min-width: @screen-sm-min) {
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {
 }
